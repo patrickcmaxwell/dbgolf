@@ -24,12 +24,12 @@ const sizes: Record<Size, string> = {
 
 const variants: Record<Variant, string> = {
   solid:
-    "bg-accent text-white hover:bg-accent-hover shadow-[0_10px_30px_-12px_rgba(168,132,58,0.6)]",
+    "bg-accent text-white hover:bg-accent-hover shadow-[0_10px_30px_-12px_rgba(20,143,244,0.55)]",
   outline:
-    "border border-foreground/25 text-foreground hover:border-accent hover:text-accent",
+    "border border-foreground/25 text-foreground hover:border-accent-deep hover:text-accent-deep",
   "outline-light":
     "border border-white/40 text-white hover:bg-white hover:text-foreground",
-  ghost: "text-foreground/80 hover:text-accent",
+  ghost: "text-foreground/80 hover:text-accent-deep",
 };
 
 export function CTA({

@@ -11,9 +11,11 @@
   --line: rgba(10, 10, 10, 0.08);
   --line-strong: rgba(10, 10, 10, 0.14);
   --line-dark: rgba(255, 255, 255, 0.1);
-  --accent: #a8843a;             /* deeper gold for white-bg contrast */
-  --accent-hover: #c19a4c;
-  --grass: #1f4d2b;
+  --accent: #148FF4;             /* primary brand blue — for buttons + dark surfaces */
+  --accent-hover: #3DA3FF;
+  --accent-deep: #003388;        /* deep navy — for text emphasis on white surfaces */
+  --accent-deep-hover: #04509b;
+  --grass: #0a2240;              /* deep navy for ambient gradient blobs */
 }
 
 @theme inline {
@@ -28,6 +30,8 @@
   --color-line-dark: var(--line-dark);
   --color-accent: var(--accent);
   --color-accent-hover: var(--accent-hover);
+  --color-accent-deep: var(--accent-deep);
+  --color-accent-deep-hover: var(--accent-deep-hover);
   --color-grass: var(--grass);
   --font-sans: var(--font-geist-sans);
   --font-display: var(--font-display);

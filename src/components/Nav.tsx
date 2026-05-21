@@ -60,7 +60,8 @@ export function Nav() {
                 <span>{item.label}</span>
                 <span
                   className={cn(
-                    "pointer-events-none absolute -bottom-1 left-0 h-px w-0 bg-accent transition-all duration-300 group-hover:w-full",
+                    "pointer-events-none absolute -bottom-1 left-0 h-px w-0 transition-all duration-300 group-hover:w-full",
+                    onDark ? "bg-accent" : "bg-accent-deep",
                   )}
                 />
               </Link>
@@ -69,7 +70,7 @@ export function Nav() {
               href={site.bookNowUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative inline-flex items-center gap-1.5 overflow-hidden rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-shadow hover:shadow-[0_10px_30px_-10px_rgba(168,132,58,0.7)]"
+              className="group relative inline-flex items-center gap-1.5 overflow-hidden rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-shadow hover:shadow-[0_10px_30px_-10px_rgba(20,143,244,0.6)]"
             >
               <span className="relative z-10">Book Now</span>
               <span
@@ -86,7 +87,7 @@ export function Nav() {
               "flex h-11 w-11 items-center justify-center rounded-full border transition md:hidden",
               onDark
                 ? "border-white/25 text-white hover:border-accent hover:text-accent"
-                : "border-line-strong text-foreground hover:border-accent hover:text-accent",
+                : "border-line-strong text-foreground hover:border-accent-deep hover:text-accent-deep",
             )}
             onClick={() => setOpen(true)}
           >

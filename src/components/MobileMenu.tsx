@@ -107,7 +107,7 @@ export function MobileMenu({ open, onClose }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={onClose}
-                className="group relative inline-flex w-full items-center justify-center gap-3 rounded-full bg-accent px-7 py-5 text-base font-semibold text-white shadow-[0_20px_60px_-20px_rgba(168,132,58,0.6)] transition hover:bg-accent-hover sm:w-auto"
+                className="group relative inline-flex w-full items-center justify-center gap-3 rounded-full bg-accent px-7 py-5 text-base font-semibold text-white shadow-[0_20px_60px_-20px_rgba(20,143,244,0.55)] transition hover:bg-accent-hover sm:w-auto"
               >
                 Book a Session
                 <ArrowUpRight size={18} className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />

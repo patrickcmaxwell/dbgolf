@@ -9,7 +9,7 @@ type Props = {
   strength?: number;
 };
 
-export function Magnetic({ children, className, strength = 0.25 }: Props) {
+export function Magnetic({ children, className, strength = 0.15 }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   const prefersReduced = useReducedMotion();
   const x = useMotionValue(0);

@@ -1,17 +1,22 @@
 export const site = {
   name: "David Bradshaw Golf Coaching",
-  shortName: "DB Golf Coaching",
-  tagline: "Developing Players, Driving Performance",
+  shortName: "David Bradshaw",
+  tagline: "Helping golfers develop skill, confidence and better scoring performance.",
+  shortRole: "Short Game & Long-term Development Coach",
+  credentialLine: "British PGA & PGA of America Professional · Senior Leadbetter Instructor",
   description:
-    "Personalized coaching for adults and competitive junior golfers, led by David Bradshaw — Senior Leadbetter Instructor and PGA Coach.",
+    "Coaching from David Bradshaw — British PGA & PGA of America Professional, Senior Leadbetter Instructor. Short game and junior development coaching in Singapore.",
   email: "david@dbgolfcoach.com",
   instagram: {
-    handle: "db.golfcoaching",
-    url: "https://www.instagram.com/db.golfcoaching",
+    handle: "dbgolfcoach",
+    url: "https://www.instagram.com/dbgolfcoach",
   },
   bookNowUrl: "https://ylcju24u4bi.typeform.com/to/CO0iX6YE",
   onlineLessonsUrl: "https://skillest.com/coach/dbgolfcoach",
-  location: "Leadbetter Golf Academy · Singapore",
+  googleReviewsUrl:
+    "https://www.google.com/search?sca_esv=bc9bdbf6b9739e40&hl=en-SG&q=David+Bradshaw+Golf+Coaching+Reviews#lrd=0x81db23984961a35:0x9748aedd160591ad,3",
+  location: "Singapore",
+  pillars: ["Skill", "Confidence", "Performance"] as const,
 } as const;
 
 export const nav = [
@@ -22,13 +27,19 @@ export const nav = [
 ] as const;
 
 export const credentials = [
-  "Senior Leadbetter Certified Instructor",
-  "British PGA Member",
+  "British PGA Professional",
   "PGA of America Member",
-  "Harold Swash Accredited",
-  "Swing Catalyst Certified",
-  "BodiTrak Certified",
+  "Senior Leadbetter Instructor",
   "TPI Level 1 Certified",
+  "TPI Level 2 Junior Coach",
+  "TrackMan Certified",
+  "Harold Swash Accredited Instructor",
+] as const;
+
+export const services = [
+  "Private Coaching",
+  "Junior Development",
+  "Online Coaching",
 ] as const;
 
 export const testimonials = [
